@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    max-width: 100%;
+}
+.flex{
+    display: flex;
+}
+.center{
+    text-align: center;
+}
+/* ********* navbar *********** */
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: rgb(19, 15, 207);
+    justify-content: space-between;
+    padding: 15px 0 15px 0;
+}
+.n-a-logo{
+    background-color: blueviolet;
+}
+.logo{
+    margin-left: 15px;
+}
+.nav-left a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 24px 24px 22px 24px;
+    font-size: 18px;
+}
+.nav-left a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.fa-solid{
+    display: inline-block;
+    font-size: inherit;
+}
+/* Style the dropdown button */
+.dropdown {
+    display: inline-block;
+  }
+.bell-num{
+    background-color: green;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 1px 5px;
+    position: absolute;
+    top: 12px;
+}
+.dropbtn:hover .bell-num{
+    color: white;
+}
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 21px;
+  }
+  /* Style the links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.nav-right a{
+    padding: 24px 24px 17px 24px;
+}
+.nav-right a img{
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+}
+.nav-right a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+/* *****
+main section
+******* */
+.main{
+    padding: 90px 20px 0 15px;
+}
+.left-first{
+    background-color: #FFFFFF;
+    padding: 0.01em 16px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    border-radius: 4px;
+}
+.pi, .left-first h4{
+    padding: 15px;
+}
+.avatar3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-first p img{
+    height: 106px; 
+    width: 106px;
+    border-radius: 50%;
+    
+}
